@@ -29,7 +29,7 @@ async function getCountries() {
     div_3.append(div_5);
     const div_6 = document.createElement("div");
     div_6.classList.add("capital");
-    div_6.innerHTML = `Capital: <span>${countries?.capital[0]}</span>`;
+    div_6.innerHTML = `Capital: <span>${countries?.capital}</span>`;
     const div_7 = document.createElement("div");
     div_7.classList.add("Region");
     div_7.innerHTML = `Region: <span>${countries?.region}</span>`;
